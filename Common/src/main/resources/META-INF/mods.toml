@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Extract%20Poison"
+logoFile="icon.png"
+
+[[mods]]
+modId="extractpoison"
+version="3.4"
+displayName="Extract Poison"
+displayURL="https://serilum.com/mod/extract-poison"
+authors="Rick South"
+description='''Allows the extraction of poison from cave spiders, pufferfish and bees with an empty bottle.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, kate1073, Michael W. S., Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.extractpoison]]
+    modId="collective"
+    mandatory=true
+    versionRange="[7.88,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.extractpoison]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.2,1.21.3]"
+    ordering="NONE"
+    side="BOTH"
