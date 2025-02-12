@@ -5,12 +5,10 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgePoisonEvent {
 	@SubscribeEvent
-	public void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
+	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
 		Level world = e.getLevel();
 		if (world.isClientSide) {
 			return;
@@ -22,7 +20,7 @@ public class ForgePoisonEvent {
 	}
 	
 	@SubscribeEvent
-	public void onWaterClick(PlayerInteractEvent.RightClickItem e) {
+	public static void onWaterClick(PlayerInteractEvent.RightClickItem e) {
 		if (PoisonEvent.onWaterClick(e.getEntity(), e.getLevel(), e.getHand()).equals(InteractionResult.FAIL)) {
 			e.setCanceled(true);
 		}
