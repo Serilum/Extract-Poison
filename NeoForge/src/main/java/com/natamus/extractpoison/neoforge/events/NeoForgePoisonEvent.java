@@ -8,7 +8,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 public class NeoForgePoisonEvent {
 	@SubscribeEvent
-	public static void onEntityInteract(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
 		Level world = e.getLevel();
 		if (world.isClientSide()) {
 			return;

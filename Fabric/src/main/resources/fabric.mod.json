@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "extractpoison",
-  "version": "3.5",
+  "version": "3.6",
 
   "name": "Extract Poison",
   "description": "Allows the extraction of poison from cave spiders, pufferfish and bees with an empty bottle.",
@@ -23,7 +23,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.2",
     "java": ">=25",
-    "collective": ">=8.29"
+    "collective": ">=8.39"
   },
 
   "custom": {
@@ -42,11 +42,11 @@
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
 	  " Josh",
 	  " Linda Jansen",
-	  " Michelle Smith",
 	  " MWS",
 	  " Tyler Behl"
   ]

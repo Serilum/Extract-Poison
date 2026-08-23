@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="extractpoison"
-version="3.5"
+version="3.6"
 displayName="Extract Poison"
 displayURL="https://serilum.com/mod/extract-poison"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Allows the extraction of poison from cave spiders, pufferfish and
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Andrean Olgo, aternosorg, Cherriesaurus, Josh, Linda Jansen, Michelle Smith, MWS, Tyler Behl   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Josh, Linda Jansen, MWS, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.extractpoison]]
     modId="collective"
     mandatory=true
-    versionRange="[8.29,)"
+    versionRange="[8.39,)"
     ordering="NONE"
     side="BOTH"
 
