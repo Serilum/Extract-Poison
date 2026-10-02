@@ -1,6 +1,6 @@
-package com.natamus.extractpoison.forge.events;
+package com.serilum.extractpoison.forge.events;
 
-import com.natamus.extractpoison.events.PoisonEvent;
+import com.serilum.extractpoison.events.PoisonEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
