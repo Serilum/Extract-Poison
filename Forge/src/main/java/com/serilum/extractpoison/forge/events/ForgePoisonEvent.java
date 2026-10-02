@@ -1,12 +1,12 @@
-package com.natamus.extractpoison.neoforge.events;
+package com.serilum.extractpoison.forge.events;
 
-import com.natamus.extractpoison.events.PoisonEvent;
+import com.serilum.extractpoison.events.PoisonEvent;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-public class NeoForgePoisonEvent {
+public class ForgePoisonEvent {
 	@SubscribeEvent
 	public static void onEntityInteract(PlayerInteractEvent.EntityInteract e) {
 		Level world = e.getLevel();
