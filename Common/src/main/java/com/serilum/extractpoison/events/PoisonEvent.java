@@ -1,8 +1,8 @@
-package com.natamus.extractpoison.events;
+package com.serilum.extractpoison.events;
 
 import com.natamus.collective.functions.EntityFunctions;
 import com.natamus.collective.functions.ItemFunctions;
-import com.natamus.extractpoison.config.ConfigHandler;
+import com.serilum.extractpoison.config.ConfigHandler;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;

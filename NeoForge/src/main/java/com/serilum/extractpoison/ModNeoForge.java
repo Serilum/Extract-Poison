@@ -1,10 +1,10 @@
-package com.natamus.extractpoison;
+package com.serilum.extractpoison;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.extractpoison.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.extractpoison.neoforge.events.NeoForgePoisonEvent;
-import com.natamus.extractpoison.util.Reference;
+import com.serilum.extractpoison.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.extractpoison.neoforge.events.NeoForgePoisonEvent;
+import com.serilum.extractpoison.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
