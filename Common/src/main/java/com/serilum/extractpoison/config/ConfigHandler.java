@@ -1,7 +1,7 @@
-package com.natamus.extractpoison.config;
+package com.serilum.extractpoison.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.extractpoison.util.Reference;
+import com.serilum.extractpoison.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

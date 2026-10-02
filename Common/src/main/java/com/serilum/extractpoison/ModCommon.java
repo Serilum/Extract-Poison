@@ -1,6 +1,6 @@
-package com.natamus.extractpoison;
+package com.serilum.extractpoison;
 
-import com.natamus.extractpoison.config.ConfigHandler;
+import com.serilum.extractpoison.config.ConfigHandler;
 
 public class ModCommon {
 

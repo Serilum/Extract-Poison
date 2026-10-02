@@ -1,10 +1,10 @@
-package com.natamus.extractpoison;
+package com.serilum.extractpoison;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.extractpoison.forge.config.IntegrateForgeConfig;
-import com.natamus.extractpoison.forge.events.ForgePoisonEvent;
-import com.natamus.extractpoison.util.Reference;
+import com.serilum.extractpoison.forge.config.IntegrateForgeConfig;
+import com.serilum.extractpoison.forge.events.ForgePoisonEvent;
+import com.serilum.extractpoison.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgePoisonEvent.registerEventsInBus();
+		ForgePoisonEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {
