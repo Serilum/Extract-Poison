@@ -1,7 +1,7 @@
-package com.natamus.extractpoison.forge.config;
+package com.serilum.extractpoison.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.extractpoison.util.Reference;
+import com.serilum.extractpoison.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

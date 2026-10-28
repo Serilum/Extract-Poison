@@ -1,9 +1,9 @@
-package com.natamus.extractpoison;
+package com.serilum.extractpoison;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.extractpoison.events.PoisonEvent;
-import com.natamus.extractpoison.util.Reference;
+import com.serilum.extractpoison.events.PoisonEvent;
+import com.serilum.extractpoison.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 import net.fabricmc.fabric.api.event.player.UseItemCallback;
